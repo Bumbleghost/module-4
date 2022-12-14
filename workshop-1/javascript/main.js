@@ -1,10 +1,3 @@
-var a = 20;
-var b = 10;
-var sum = a + b;
-
-console.log (sum)
-
-
 var voornaam = "Casper "; // wijzig dit in jouw eigen voornaam
 var achternaam = "Otto"; // wijzig dit in jouw eigen achternaam
 
@@ -31,6 +24,8 @@ var aantal_studenten_in_deze_klas = 23;
 var kosten_van_frikandelbroodje = 1.76;
 var totale_lunchkosten = aantal_studenten_in_deze_klas *= kosten_van_frikandelbroodje *= 2; // bereken hier het totaalbedrag als iedere student 2 frikandelbroodjes zou kopen
 
+const lunch = aantal_studenten_in_deze_klas + kosten_van_frikandelbroodje;
+
 let element = document.createElement('div');
 element.innerHTML += volledigeNaam + ("<br>");
 document.getElementById("voorPlusAchternaam").appendChild(element);
@@ -40,8 +35,12 @@ element.innerHTML += geboorteDatum + ("<br>");
 document.getElementById("geboorteDatum").appendChild(element1);
 
 let element2 = document.createElement('div');
-element.innerHTML += ("<br>") + adress;
-document.getElementById("geboorteDatum").appendChild(element2);
+element.innerHTML += ("<br>") + adress + ("<br>");
+document.getElementById("adress").appendChild(element2);
+
+let element3 = document.createElement('div');
+element.innerHTML +=  lunch; + ("<br>")
+document.getElementById("lunch").appendChild(element3);
 
 
 
