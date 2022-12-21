@@ -161,3 +161,8 @@ document.addEventListener('keydown', function (event) {
 
 });
 
+
+function play() {
+    var audio = document.getElementById("audio");
+    audio.onclick();
+  } 

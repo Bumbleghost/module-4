@@ -9,12 +9,12 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #03071e, #38b000 ,#03071e);
+    background: linear-gradient(to right, #03071e, #38b000, #03071e);
 }
 
-.button:active{
-    background-color: red;   
-  }
+.button:active {
+    background-color: red;
+}
 
 .calculator-grid {
     display: grid;
@@ -37,8 +37,9 @@ body {
 }
 
 .calculator-grid>button:active {
-    background-color:#00ff11 ;
+    background-color: #00ff11;
 }
+
 .span-two {
     grid-column: span 2;
     color: #000000;
